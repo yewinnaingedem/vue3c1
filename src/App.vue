@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <VariableAndMethods></VariableAndMethods>
+   <Lecutre4VifAndCondition></Lecutre4VifAndCondition>
 </template>
 
 <script>
-import VariableAndMethods from "./components/variable-and-methods/VariableAndMethods.vue" ;
-export default {
-  name: 'App',
-  components: {
-    VariableAndMethods
-  }
+  import Lecutre4VifAndConditon from "./components/Day2/Lecutre4VifAndCondition.vue" ;
 
-}
+export default {
+    name: 'App',
+    components: {
+      Lecutre4VifAndConditon ,
+    }
+
+} 
 </script>
 
