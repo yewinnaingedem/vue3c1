@@ -1,14 +1,14 @@
 <template>
-   <Lecutre4VifAndCondition></Lecutre4VifAndCondition>
+   <Lecture4VifAndCondition></Lecture4VifAndCondition>
 </template>
 
 <script>
-  import Lecutre4VifAndConditon from "./components/Day2/Lecutre4VifAndCondition.vue" ;
+  import Lecture4VifAndCondition from "./components/Day2/Lecture4VifAndCondition.vue" ;
 
 export default {
     name: 'App',
     components: {
-      Lecutre4VifAndConditon ,
+      Lecture4VifAndCondition ,
     }
 
 } 
