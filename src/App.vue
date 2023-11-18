@@ -3,12 +3,12 @@
 </template>
 
 <script>
-  
-import ParentComponent from "./components/Day3/ParentComponent.vue";
+  import ParentComponent from "./components/Day3FDC8/Day3/ParentComponent.vue";
+
 export default {
     name: 'App',
     components : {
-      ParentComponent,
+      ParentComponent
     }
 
 } 

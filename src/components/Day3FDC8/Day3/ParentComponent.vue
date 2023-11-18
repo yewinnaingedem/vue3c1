@@ -5,6 +5,9 @@
         <AlertComponent type="info" title="Info Warning" text="This is info warning"></AlertComponent>
         <AlertComponent type="primary" title="Primary Waring " text="This is primary waring"></AlertComponent>
         <hr>
+        <h1>Alert Default</h1>
+        <AlertComponent></AlertComponent>
+        <hr>
         <h1>Object Component</h1>
         <UserComponent :user="user" :showUsers="showUser"></UserComponent>
         <hr>

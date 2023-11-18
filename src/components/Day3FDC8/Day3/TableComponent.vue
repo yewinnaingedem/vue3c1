@@ -1,7 +1,7 @@
 <template>
-    <table class="table">
-        <thead>
-            <tr>
+    <table class="table table-dark text-center">
+        <thead class="bg-primary">
+            <tr >
                 <th v-for="column in table.columns" :key="column" scope="col">{{ column }}</th>
             </tr>
         </thead>

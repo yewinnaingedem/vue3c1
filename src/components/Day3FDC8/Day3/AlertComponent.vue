@@ -10,9 +10,20 @@
 export default {
     name : "AlertComponent" ,
     props : {
-        type : String ,
-        title : String ,
-        text : String ,
+        type : {
+            type : String ,
+            default : 'danger'
+        } ,
+        title : {
+            type : String ,
+            default : "Danger Alert !",
+
+        } ,
+        text : {
+            type : String ,
+            default : 'This is danger Alert' ,
+            required : true ,
+        } ,
     },
     methods : {
         getClass () {
