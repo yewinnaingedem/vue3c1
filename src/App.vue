@@ -1,14 +1,14 @@
 <template>
-   <Lecture4VifAndCondition></Lecture4VifAndCondition>
+   <ParentComponent></ParentComponent>
 </template>
 
 <script>
-  import Lecture4VifAndCondition from "./components/Day2/Lecture4VifAndCondition.vue" ;
-
+  
+import ParentComponent from "./components/Day3/ParentComponent.vue";
 export default {
     name: 'App',
-    components: {
-      Lecture4VifAndCondition ,
+    components : {
+      ParentComponent,
     }
 
 } 
