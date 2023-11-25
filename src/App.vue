@@ -1,14 +1,14 @@
 <template>
-   <ParentComponent></ParentComponent>
+   <Computed></Computed>
 </template>
 
 <script>
-  import ParentComponent from "./components/Day3FDC8/Day3/ParentComponent.vue";
+import Computed from "./components/Day4/Computed.vue";
 
 export default {
     name: 'App',
     components : {
-      ParentComponent
+      Computed ,
     }
 
 } 
