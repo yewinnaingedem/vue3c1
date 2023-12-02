@@ -27,9 +27,14 @@
         },
         watch : {
             count (val) {
-                if(val > 5){
-                    this.count = 0 
-                    alert('Stop Counting');
+                // if(val > 5){
+                //     this.count = 0 
+                //     alert('Stop Counting');
+                // }
+                if(val / 2 == 0) {
+                    this.count = val ;
+                }else {
+                    this.count = 0;
                 }
             }
         }

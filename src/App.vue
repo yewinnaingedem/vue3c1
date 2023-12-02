@@ -1,15 +1,14 @@
 <template>
-   <WatchComponent></WatchComponent>
+  <DCPlayGround></DCPlayGround>
 </template>
 
 <script>
-
-import WatchComponent from "./components/Day5/WatchComponent.vue" ;
+import DCPlayGround from "./components/Day5/DynamicComponent/DCPlayGround.vue";
 export default {
-    name: 'App',
-    components : {
-      WatchComponent ,
-    }
+  name: 'App',
+  components: {
+    DCPlayGround
+  }
 
 } 
 </script>
