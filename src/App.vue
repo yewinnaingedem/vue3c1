@@ -1,14 +1,14 @@
 <template>
-   <Computed></Computed>
+   <WatchComponent></WatchComponent>
 </template>
 
 <script>
-import Computed from "./components/Day4/Computed.vue";
 
+import WatchComponent from "./components/Day5/WatchComponent.vue" ;
 export default {
     name: 'App',
     components : {
-      Computed ,
+      WatchComponent ,
     }
 
 } 
